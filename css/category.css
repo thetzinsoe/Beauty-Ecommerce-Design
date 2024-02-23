@@ -1,0 +1,244 @@
+/*Start Category Page */
+
+.sec-slider {
+  margin-top: 178px;
+  position: relative;
+}
+
+.sec-slider img{
+width: 100%;
+}
+
+.sec-slider .catmv-content {
+  position: absolute;
+  top: 52%;
+  left: 207px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.catmv-slider .slick-dots button {
+  z-index: 99;
+}
+
+.catmv-content {
+  margin-left: 50px;
+}
+
+.catmv-content h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.catmv-content p {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.sec-solution .solution-text {
+  padding: 36px 0;
+  background: rgba(138, 91, 76, 1);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.solution-text h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  margin-bottom: 23px;
+
+}
+
+.sec-solution .nav-solution {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 50px 0;
+  margin-bottom: 57px;
+}
+
+
+.sec-solution .nav-solution li {
+  text-align: center;
+  display: inline-block;
+  width: 212px;
+}
+
+.sec-acne .d-flex-row {
+  justify-content: space-evenly;
+}
+
+.sec-acne .acent-category ul,
+.sec-acne .treatment-category ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+
+.sec-acne .category-col {
+  margin: 13px 0 0 55px;
+  flex: 0 0 25%;
+}
+
+.sec-acne .product-col {
+  flex: 0 0 70%;
+}
+
+.sec-acne .acent-category {
+  margin-bottom: 82px;
+}
+
+.sec-acne .category-col h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+
+.sec-acne .category-col ul li {
+  padding: 15px 0;
+}
+
+.sec-acne .product-col img {
+  border: 3px solid rgba(138, 91, 76, 0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.sec-acne .product-ro1-col1 img {
+  margin-bottom: 23px;
+}
+
+.sec-acne .product-col h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sec-acne .product-ro1-col1 h4 {
+  margin: 0 0 15px 5px;
+}
+
+.sec-acne .product-col p {
+  margin-bottom: 10px;
+}
+
+.sec-acne .product-ro1-col1 p {
+  margin-bottom: 26px;
+}
+
+.sec-acne .product-col a img {
+  border: none;
+  margin: 0;
+}
+
+.sec-acne .product-col a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid #8A5B4C;
+  border-radius: 7px;
+  padding: 4px 0;
+}
+
+.sec-acne .product-col a:hover {
+  background-color: #8A5B4C;
+}
+
+.sec-acne .product-col a:hover img {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%) hue-rotate(153deg) brightness(118%) contrast(100%);
+}
+
+.sec-acne .product-ro1-col1 a {
+  border-radius: 7px;
+  padding: 7px 0;
+}
+
+.sec-acne .product-ro1-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sec-acne .product-ro1 {
+  margin-bottom: 43px;
+}
+
+.sec-acne .product-ro2 .item1 {
+  margin-bottom: 42px;
+}
+
+.sec-treatment {
+  margin-top: 57px;
+  background-color: rgba(244, 218, 204, 1);
+}
+
+.sec-treatment .text-blk {
+  padding: 171px 0 0 70px;
+}
+
+.sec-treatment .text-blk h1 {
+  font-family: Montserrat, sans-serif;
+  line-height: 0.8px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 33px;
+}
+
+.sec-treatment .text-blk p {
+  margin-bottom: 25px;
+}
+
+.sec-suncream {
+  margin-top: 103px;
+}
+
+.sec-suncream h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  margin-bottom: 26px;
+}
+
+.sec-suncream .text-blk {
+  text-align: center;
+}
+
+.sec-suncream .img-blk {
+  justify-content: center;
+  margin: 96px 50px;
+}
+
+.sec-suncream .img-blk div {
+  text-align: center;
+  width: 33%;
+}
+
+.sec-information .d-flex-row {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.sec-information .info.center {
+  margin: 0 100px;
+}
+
+.sec-information .info img {
+  margin-bottom: 15px;
+}
+
+.sec-information .info p {
+  margin-bottom: 10px;
+}
+
+.sec-information .info a {
+  text-decoration: underline;
+}
+
+/*End Category Page*/

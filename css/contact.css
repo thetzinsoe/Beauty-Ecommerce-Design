@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: "Gill Sans MT";
+  src: url(../font/gill-sans-mt/GIL_____.TTF);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  font-family: "Gill Sans MT";
+  background-color: #f6f6f6;
+  font-size-adjust: 100%;
+}
+.inner-container{
+  margin: 0 auto;
+  width: 1300px;
+}
+.contact{
+  width: 1080px;
+  margin: 0 auto;
+  padding: 228px 0 100px;
+}
+.contact-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 94px;
+}
+.contact-sec h2{
+  font-size: 50px;
+  margin-bottom: 44px;
+}
+.contact-sec ul{
+  margin: 20px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.faq{
+  color: #ff8a03;
+}
+.rtn-ply{
+  color: #ff8800;
+}
+.contact-info-sec{
+  font-size: 18px;
+  width: 1080px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+.cmn-contact{
+  width: 48%;
+  margin-right: 2%;
+  background-color: #fff;
+}
+.cmn-contact:last-child{
+  margin-right: 0;
+}
+.mail-sec{
+  height: 237px;
+  padding: 18px 271px 18px 44px;
+}
+.mail-sec a{
+  color: #8d8d8d;
+  text-decoration: underline;
+}
+.cmn-contact ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mail-sec li h3{
+  margin-bottom: 10px;
+}
+.location-sec{
+  font-size: 18px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 39px 151px 39px 44px;
+}
+.location-sec p{
+  color: #8d8d8d;
+}
+@media screen and (min-width:768px) and (max-width:1300px) {
+  .contact-info-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cmn-contact {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .location-sec {
+    padding: 39px 20px;
+  }
+}
+
+
+@media screen and (max-width:767.9px) {
+  .contact-info-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cmn-contact {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .location-sec {
+    padding: 39px 20px;
+  }
+}

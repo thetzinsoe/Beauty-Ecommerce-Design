@@ -1,0 +1,34 @@
+/* Product-slick */
+
+.slider-container {
+  position: relative;
+  /*background-color: aquamarine;*/
+  width: 569px;
+  /* Adjust as per your requirement */
+  margin: 0 auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 37%;
+  padding: 10px 20px;
+  border: none;
+  /*background-color: rgba(221, 47, 47, 0.5);*/
+  color: white;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
