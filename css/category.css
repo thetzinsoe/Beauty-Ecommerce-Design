@@ -5,8 +5,8 @@
   position: relative;
 }
 
-.sec-slider img{
-width: 100%;
+.sec-slider img {
+  width: 100%;
 }
 
 .sec-slider .catmv-content {
@@ -93,11 +93,11 @@ width: 100%;
 }
 
 .sec-acne .product-col .product-ro1 .pd-26+.pd-26,
-.sec-acne .product-col .product-ro2 .pd-26+.pd-26{
+.sec-acne .product-col .product-ro2 .pd-26+.pd-26 {
   padding-left: 20px;
 }
 
-.sec-acne .product-col .product-ro2 .pd-18+.pd-18{
+.sec-acne .product-col .product-ro2 .pd-18+.pd-18 {
   padding-left: 18px;
 }
 
@@ -134,7 +134,7 @@ width: 100%;
   display: inline;
 }
 
-.sec-acne .product-col span{
+.sec-acne .product-col span {
   float: right;
 }
 
@@ -147,7 +147,7 @@ width: 100%;
 }
 
 .sec-acne .product-ro1-col1 p {
-  margin:13px 0 27px 0;
+  margin: 13px 0 27px 0;
 }
 
 .sec-acne .product-col a img {
@@ -214,7 +214,7 @@ width: 100%;
 }
 
 .sec-suncream {
-  margin-top: 103px;
+  margin: 103px 0 96px 0;
 }
 
 .sec-suncream h2 {
@@ -228,26 +228,38 @@ width: 100%;
 }
 
 .sec-suncream .img-blk {
- margin-top: 98px;
+  margin-top: 98px;
 }
 
 .sec-suncream .img-blk>div {
   justify-content: center;
 }
 
-.sec-suncream .first-row div,
-.sec-suncream .second-row div{
-margin-right : 56px;
+.sec-suncream .first-row div+div {
+  margin-left: 100px;
+}
+
+.sec-suncream .second-row {
+  margin-right: 150px;
+}
+
+.sec-suncream .second-row .second-ro1 {
+  margin: 0 100px;
 }
 
 .sec-information .d-flex-row {
-  justify-content: center;
+  justify-content: initial;
   text-align: center;
-  margin-bottom: 44px;
+  margin: 0 0 44px 382px;
+}
+
+.sec-information div.info {
+  width: 220px;
+
 }
 
 .sec-information .info.center {
-  margin: 0 100px;
+  /* margin: 0 100px; */
 }
 
 .sec-information .info img {
@@ -261,5 +273,16 @@ margin-right : 56px;
 .sec-information .info a {
   text-decoration: underline;
 }
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1300px) {}
+
+@media screen and (max-width:767.9px) {}
+
+
+
+
 
 /*End Category Page*/
