@@ -54,6 +54,7 @@ p {
   display: none;
 }
 
+
 section {
   width: 100%;
 }
@@ -114,7 +115,7 @@ header {
 }
 
 header.active {
-  background: #FDCAD4;
+  background: #fdcad4;
   transition: all 0.2s ease;
 }
 
@@ -123,7 +124,6 @@ header.active {
   flex-direction: column;
   align-items: center;
 }
-
 
 .dropdown-menu {
   display: flex;
@@ -170,15 +170,15 @@ header.active {
 
 /* for all btn */
 .btn {
-  border: 2px solid #8A5B4C;
+  border: 2px solid #8a5b4c;
   background-color: transparent;
-  color: #8A5B4C;
+  color: #8a5b4c;
   font-size: 15px;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background-color: #8A5B4C;
+  background-color: #8a5b4c;
   color: #ffffff;
 }
 
@@ -190,7 +190,6 @@ header.active {
 /* for shop more btn */
 .btn2 {
   padding: 11px 30px 12px;
-
 }
 
 /* for all cart btn */
@@ -198,13 +197,13 @@ header.active {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  border: 2px solid #8A5B4C;
+  border: 2px solid #8a5b4c;
   background-color: transparent;
   border-radius: 5px;
 }
 
 .cart-btn:hover {
-  background-color: #8A5B4C;
+  background-color: #8a5b4c;
 }
 
 .cart-btn::after {
@@ -214,7 +213,8 @@ header.active {
 }
 
 .cart-btn:hover::after {
-  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%) hue-rotate(153deg) brightness(118%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%)
+    hue-rotate(153deg) brightness(118%) contrast(100%);
 }
 
 /* for cart btn big */
@@ -292,11 +292,11 @@ header.active {
 
 .product-con .item-heading {
   margin-bottom: 43px;
-  color: #8A5B4C;
+  color: #8a5b4c;
 }
 
 .product-con .item-heading h3:last-child {
-  border-bottom: 2px solid #8A5B4C;
+  border-bottom: 2px solid #8a5b4c;
 }
 
 .product-con .item {
@@ -340,17 +340,16 @@ header.active {
   position: absolute;
   top: 13px;
   left: 13.5px;
-  color: #8A5B4C;
+  color: #8a5b4c;
   font-size: 15px;
   content: "New!";
 }
-
 
 .show {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #FDCAD4;
+  background-color: #fdcad4;
   max-width: 1400px;
 }
 
@@ -383,7 +382,6 @@ header.active {
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
 .learn-more .item-con .item {
@@ -413,8 +411,7 @@ header.active {
 }
 
 .subscribe {
-  background-color: #D9D9D9;
-
+  background-color: #d9d9d9;
 }
 
 .subscribe .container {
@@ -422,7 +419,6 @@ header.active {
   justify-content: space-between;
   align-items: center;
   padding: 37px 0 36px;
-
 }
 
 .subscribe .container .left {
@@ -435,14 +431,14 @@ header.active {
   width: 2px;
   height: 106px;
   margin-left: 35px;
-  background-color: #8A5B4C;
+  background-color: #8a5b4c;
   content: "";
 }
 
 .subscribe .container .left .title2 {
   position: relative;
   margin-right: 75px;
-  color: #8A5B4C;
+  color: #8a5b4c;
 }
 
 .subscribe .container .left p {
@@ -460,7 +456,6 @@ header.active {
 .subscribe .container .sub .input {
   width: 338px;
   max-width: 339px;
-
 }
 
 .subscribe .sub .input input {
@@ -470,7 +465,7 @@ header.active {
 
 .subscribe .sub button {
   padding: 26px 54px;
-  background-color: #8A5B4C;
+  background-color: #8a5b4c;
   color: #ffffff;
   font-family: "Montserrat";
   font-size: 20px;
@@ -478,7 +473,7 @@ header.active {
 }
 
 footer {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
 }
 
 .footer {
@@ -493,7 +488,6 @@ footer {
   width: 50%;
   padding: 20px 3px;
 }
-
 
 .footer .left .logo {
   margin-bottom: 108px;
@@ -523,9 +517,8 @@ footer {
   bottom: 9px;
   width: 40px;
   height: 39px;
-  background: url(../img/common/ico_tele.png)no-repeat center/contain;
+  background: url(../img/common/ico_tele.png) no-repeat center/contain;
   content: "";
-
 }
 
 .footer .left .contact p {
@@ -572,11 +565,9 @@ footer {
 
 .footer .right .social li:last-child {
   margin-right: 0;
-
 }
 
-@media screen and (min-width:768px) and (max-width:1300px) {
-
+@media screen and (min-width: 768px) and (max-width: 1300px) {
   .pc {
     display: none;
   }
@@ -594,13 +585,12 @@ footer {
     margin: 0 auto;
   }
 
-
   header {
     padding: 24px 42px 20px;
   }
 
   header.active {
-    background: #FFDEDE;
+    background: #ffdede;
     transition: all 0.2s ease;
   }
 
@@ -620,7 +610,6 @@ footer {
   .hum-menu .change1 {
     background-color: transparent;
     transition: all 0.3s ease;
-
   }
 
   .hum-menu .bg-1 {
@@ -635,7 +624,6 @@ footer {
   .hum-menu .change3 {
     transform: rotate(45deg) translateY(-5px) translateX(0px);
     transition: all 0.3s ease;
-
   }
 
   .nav .dropdown-menu {
@@ -647,7 +635,7 @@ footer {
     align-items: start;
     width: 72.5%;
     padding: 97px 107px 56px;
-    background-color: #FFDEDE;
+    background-color: #ffdede;
     border-bottom-right-radius: 20%;
   }
 
@@ -664,7 +652,6 @@ footer {
     padding: 0;
     padding-top: 3.5px;
   }
-
 
   body,
   form {
@@ -684,15 +671,15 @@ footer {
 
   /* for all btn */
   .btn {
-    border: 2px solid #8A5B4C;
+    border: 2px solid #8a5b4c;
     background-color: transparent;
-    color: #8A5B4C;
+    color: #8a5b4c;
     font-size: 15px;
     border-radius: 5px;
   }
 
   .btn:hover {
-    background-color: #8A5B4C;
+    background-color: #8a5b4c;
     color: #ffffff;
   }
 
@@ -704,7 +691,6 @@ footer {
   /* for shop more btn */
   .btn2 {
     padding: 11px 29px 10px;
-
   }
 
   /* for all cart btn */
@@ -712,13 +698,13 @@ footer {
     position: relative;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid #8A5B4C;
+    border: 2px solid #8a5b4c;
     background-color: transparent;
     border-radius: 5px;
   }
 
   .cart-btn:hover {
-    background-color: #8A5B4C;
+    background-color: #8a5b4c;
   }
 
   .cart-btn::after {
@@ -728,7 +714,8 @@ footer {
   }
 
   .cart-btn:hover::after {
-    filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%) hue-rotate(153deg) brightness(118%) contrast(100%);
+    filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(1736%)
+      hue-rotate(153deg) brightness(118%) contrast(100%);
   }
 
   /* for cart btn big */
@@ -778,14 +765,12 @@ footer {
   }
 
   .title2 {
-
     font-size: 25px;
   }
 
   .title3 {
     font-size: 20px;
   }
-
 
   .bg-1 {
     background-color: rgb(255, 255, 0);
@@ -797,11 +782,11 @@ footer {
 
   .product-con .item-heading {
     margin-bottom: 44px;
-    color: #8A5B4C;
+    color: #8a5b4c;
   }
 
   .product-con .item-heading h3:last-child {
-    border-bottom: 2px solid #8A5B4C;
+    border-bottom: 2px solid #8a5b4c;
   }
 
   .product-con .item-con {
@@ -839,7 +824,7 @@ footer {
     position: absolute;
     top: 14px;
     left: 13px;
-    color: #8A5B4C;
+    color: #8a5b4c;
     font-size: 15px;
     content: "New!";
   }
@@ -848,13 +833,12 @@ footer {
     position: relative;
   }
 
-
   .show {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
-    background-color: #FDCAD4;
+    background-color: #fdcad4;
     max-width: 1400px;
   }
 
@@ -913,7 +897,7 @@ footer {
   }
 
   .subscribe {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
   }
 
   .subscribe .container {
@@ -922,7 +906,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 28px 0 27px;
-
   }
 
   .subscribe .container .left {
@@ -933,15 +916,11 @@ footer {
   }
 
   .subscribe .container .left .title2::after {
-
     margin-left: 38px;
-
   }
 
   .subscribe .container .left .title2 {
-
     margin-right: 75px;
-
   }
 
   .subscribe .container .left p {
@@ -955,7 +934,6 @@ footer {
   .subscribe .container .sub .input {
     width: 467px;
     max-width: 467px;
-
   }
 
   .subscribe .sub .input input {
@@ -969,8 +947,6 @@ footer {
     font-weight: 600;
   }
 
-
-
   .footer {
     padding: 52px 50px 100px 52px;
   }
@@ -980,7 +956,6 @@ footer {
     margin-bottom: 85px;
     padding: 20px 0px;
   }
-
 
   .footer .left .logo {
     margin-bottom: 108px;
@@ -1009,9 +984,8 @@ footer {
     bottom: 10px;
     width: 50px;
     height: 35px;
-    background: url(../img/common/ico_tele.png)no-repeat center/contain;
+    background: url(../img/common/ico_tele.png) no-repeat center/contain;
     content: "";
-
   }
 
   .footer .left .contact p {
@@ -1056,13 +1030,30 @@ footer {
 
   .footer .right .social li:last-child {
     margin-right: 0;
-
   }
 }
 
-@media screen and (max-width:767.9px) {
+@media screen and (max-width: 767.9px) {
+
+  .container{
+    width: 550px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .tb {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+
   header {
-    padding: 34px 44px 30px;
+    padding: 24px 49px 23px;
   }
 
   .nav {
@@ -1081,7 +1072,6 @@ footer {
   .hum-menu .change1 {
     background-color: transparent;
     transition: all 0.3s ease;
-
   }
 
   .hum-menu .bg-1 {
@@ -1096,7 +1086,6 @@ footer {
   .hum-menu .change3 {
     transform: rotate(45deg) translateY(-5px) translateX(0px);
     transition: all 0.3s ease;
-
   }
 
   .nav .dropdown-menu {
@@ -1108,7 +1097,7 @@ footer {
     align-items: start;
     width: 72.5%;
     padding: 97px 107px 56px;
-    background-color: #FFDEDE;
+    background-color: #ffdede;
     border-bottom-right-radius: 20%;
   }
 
