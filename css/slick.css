@@ -2,9 +2,7 @@
 
 .slider-container {
   position: relative;
-  /*background-color: aquamarine;*/
   width: 569px;
-  /* Adjust as per your requirement */
   margin: 0 auto;
 }
 
@@ -31,4 +29,27 @@
 
 .next-btn {
   right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 51%;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .slider-container {
+    position: relative;
+    width: 544px;
+    margin: 0 auto;
+  }
+
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 51%;
+  }
 }

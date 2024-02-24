@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/common.css" />
   <link rel="stylesheet" href="css/contact.css" />
-  <title>Contact Us | SOOTH</title>
 </head>
 
 <body>
@@ -23,27 +23,25 @@
       </a>
       <ul class="dropdown-menu nav-item">
         <li class="dropdown-item">
-          <a href="index.html" class="nav-link ">Home</a>
+          <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="dropdown-item">
           <a href="category.html" class="nav-link">Category</a>
         </li>
+        <li class="dropdown-item"><a href="product.html" class="nav-link">Product</a></li>
         <li class="dropdown-item">
-          <a href="product.html" class="nav-link">Product</a>
+          <a href="about.html" class="nav-link">About Us</a>
         </li>
         <li class="dropdown-item">
-          <a href="" class="nav-link">About Us</a>
-        </li>
-        <li class="dropdown-item">
-          <a href="contact.html" class="nav-link active">Contact Us</a>
+          <a href="#" class="nav-link active">Contact Us</a>
         </li>
       </ul>
     </nav>
   </header>
-  <div class="inner-container">
-    <div class="contact">
-      <div class="contact-sec">
-        <h2>Contact Us</h2>
+  <div class="container">
+    <div class="ctt-sec">
+      <h2>Contact Us</h2>
+      <div class="ctt-ctn">
         <p>
           Before reaching out to our team, you may want to review these
           helpful resources in case your question has already been answered.
@@ -53,7 +51,8 @@
             <a href="FAQ">Check out our <span class="faq">FAQ</span></a>
           </li>
           <li>
-            <a href="Shipping & Returns policy">Read our <span class="rtn-ply">Shipping & Returns policy</span></a>
+            <a href="Shipping & Returns policy">Read our
+              <span class="rtn-ply">Shipping & Returns policy</span></a>
           </li>
         </ul>
         <p>
@@ -61,34 +60,55 @@
           free to reach out to our Customer Care team directly.
         </p>
       </div>
-      <div class="contact-info-sec">
-        <div class="cmn-contact">
-          <div class="mail-sec">
-            <ul>
-              <li>
-                <h3>General inquiries</h3>
-                <a href="mailto:info@smoothproducts.com">info@smoothproducts.com</a>
-              </li>
-              <li>
-                <h3>Press & Media</h3>
-                <a href="mailto:info@smoothproducts.com">info@smoothproducts.com</a>
-              </li>
-              <li>
-                <h3>Returns</h3>
-              </li>
-            </ul>
-          </div>
+    </div>
+    <div class="inner-ctt">
+      <div class="cmn-ctt">
+        <div class="ctt-mail">
+          <ul>
+            <li>
+              <h3>General inquiries</h3>
+              <a href="mailto:info@smoothproducts/com">info@smoothproducts.com</a>
+            </li>
+            <li>
+              <h3>Press & Media</h3>
+              <a href="mailto:info@smoothproducts/com">info@smoothproducts.com</a>
+            </li>
+            <li>
+              <h3>Returns</h3>
+            </li>
+          </ul>
         </div>
-        <div class="cmn-contact location-sec">
+      </div>
+      <div class="cmn-ctt">
+        <div class="ctt-location">
           <h3>Sooth Brand Corporate Headquarters</h3>
           <p>4380 Wilson Street, Suite 300</p>
           <p>Burlington, VT 80237</p>
           <p>Monday - Friday 9am-4:30pm</p>
-          <p>(01) 521 6914, (02) 542 8892</p>
+          <span>01 521 6914 02 542 8892</span>
         </div>
       </div>
     </div>
   </div>
+  <section class="subscribe">
+    <div class="container con-10">
+      <div class="d-flex-row left">
+        <h3 class="title2">Join the SOOTH</h3>
+        <div class="sub-p">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. 
+          </p>
+        </div>
+      </div>
+      <div class="sub">
+        <div class="input"><input type="text" class="input" /></div>
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </section>
   <footer>
     <div class="container footer">
       <div class="left">
@@ -99,13 +119,15 @@
           <div class="input">
             <input type="email" placeholder="Email" />
           </div>
-          <p>Stay in touch with us for the newest products!</p>
+          <div>
+            <p>Stay in touch with us for the newest products!</p>
+          </div>
         </div>
       </div>
       <div class="right">
         <div class="footer-nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#">Discovery</a></li>
             <li><a href="#">Photos</a></li>
             <li><a href="#">Contacts</a></li>
@@ -141,7 +163,7 @@
       </div>
     </div>
   </footer>
-  <script src="./js/jquery.min.js"></script>
+  <script src="./js/libraries/jquery.min.js"></script>
   <script src="./js/humburga_menu.js"></script>
   <script src="./js/script.js"></script>
 </body>

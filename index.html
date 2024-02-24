@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/common.css" />
   <link rel="stylesheet" href="css/topPage.css" />
-  <title>Home | SOOTH</title>
+  <title>Home Page</title>
 </head>
 
 <body>
@@ -19,20 +19,18 @@
         <div></div>
       </div>
       <a href="index.html" class="page-logo nav-item">
-        <img src="./img/common/img_page_logo1.svg" alt="header-logo" />
+        <img src="./img/common/img_page_logo1.svg" alt="" />
       </a>
       <ul class="dropdown-menu nav-item">
         <li class="dropdown-item">
-          <a href="index.html" class="nav-link active">Home</a>
+          <a href="#" class="nav-link active">Home</a>
         </li>
         <li class="dropdown-item">
           <a href="category.html" class="nav-link">Category</a>
         </li>
+        <li class="dropdown-item"><a href="product.html" class="nav-link">Product</a></li>
         <li class="dropdown-item">
-          <a href="product.html" class="nav-link">Product</a>
-        </li>
-        <li class="dropdown-item">
-          <a href="" class="nav-link">About Us</a>
+          <a href="about.html" class="nav-link">About Us</a>
         </li>
         <li class="dropdown-item">
           <a href="contact.html" class="nav-link">Contact Us</a>
@@ -56,6 +54,18 @@
         <a class="btn btn1"> Shop Products </a>
       </div>
     </section>
+    <div class="container con-1 sp">
+      <h1 class="title">
+        All Natural<br />
+        Skin Remedies
+      </h1>
+      <p>
+        A healthier you from the inside out. We’ve sourced the<br />
+        cleanest ingredients to create a line of clean skin care<br />
+        treatments that leave you feeling your best.<br />
+      </p>
+      <a class="btn btn1"> Shop Products </a>
+    </div>
     <!-- section-2 -->
     <section class="sec-2">
       <div class="container con-2">
@@ -457,13 +467,15 @@
       <div class="container con-10">
         <div class="d-flex-row left">
           <h3 class="title2">Join the SOOTH</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an
-            unknown printer took a galley of type and scrambled it to
-            make a type specimen book. 
-          </p>
+          <div class="sub-p">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to
+              make a type specimen book. 
+            </p>
+          </div>
         </div>
         <div class="sub">
           <div class="input"><input type="text" class="input"></div><button>Subscribe</button>
@@ -481,14 +493,16 @@
           <div class="input">
             <input type="email" placeholder="Email" />
           </div>
-          <p>Stay in touch with us for the newest products!</p>
+          <div>
+            <p>Stay in touch with us for the newest products!</p>
+          </div>
         </div>
 
       </div>
       <div class="right">
         <div class="footer-nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#">Discovery</a></li>
             <li><a href="#">Photos</a></li>
             <li><a href="#">Contacts</a></li>
@@ -518,7 +532,7 @@
     </div>
   </footer>
 </body>
-<script src="./js/jquery.min.js"></script>
+<script src="./js/libraries/jquery.min.js"></script>
 <script src="./js/humburga_menu.js"></script>
 <script src="./js/script.js"></script>
 

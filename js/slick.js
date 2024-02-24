@@ -1,11 +1,13 @@
-$('.single-item').slick();
+$(document).ready(function () {
+  $('.single-item').slick();
 
-$('.prev-btn').click(function () {
-  $('.single-item').slick('slickPrev');
-});
+  $('.prev-btn').click(function () {
+    $('.single-item').slick('slickPrev');
+  });
 
-$('.next-btn').click(function () {
-  $('.single-item').slick('slickNext');
+  $('.next-btn').click(function () {
+    $('.single-item').slick('slickNext');
+  });
 });
 
 var slider = $('.catmv-slider');

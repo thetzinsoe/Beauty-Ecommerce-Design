@@ -103,6 +103,8 @@
   display: none;
 }
 
+/*category slide*/
+
 .catmv-slider img.tb {
   display: none;
 }
@@ -158,10 +160,9 @@
   bottom: 33px;
 }
 
-.catmv-slider .slick-dots > li {
+.catmv-slider .slick-dots>li {
   margin-right: 5px;
   display: inline;
-  /* z-index: 99; */
 }
 
 .slick-dots li button {
@@ -198,13 +199,13 @@
 
   .catmv-slider .slick-prev {
     color: transparent;
-    width: 70px;
-    height: 70px;
+    width: 9.115vw;
+    height: 9.115vw;
     border: none;
     background-color: transparent;
     position: absolute;
     top: 43%;
-    left: 29px;
+    left: 3.776vw;
     background-image: url("../img/category/icon_sliderbtn_lt.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -216,13 +217,13 @@
 
   .catmv-slider .slick-next {
     color: transparent;
-    width: 70px;
-    height: 70px;
+    width: 9.115vw;
+    height: 9.115vw;
     border: none;
     background-color: transparent;
     position: absolute;
     top: 43%;
-    right: 29px;
+    right: 3.776vw;
     background-image: url("../img/category/icon_sliderbtn_rt.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -233,7 +234,7 @@
   }
 
   .catmv-slider .slick-dots {
-    bottom: 24px;
+    bottom: 3.125vw;
   }
 }
 
@@ -256,13 +257,13 @@
 
   .catmv-slider .slick-prev {
     color: transparent;
-    width: 60px;
-    height: 60px;
+    width: 9.375vw;
+    height: 9.375vw;
     border: none;
     background-color: transparent;
     position: absolute;
     top: 48%;
-    left: 23px;
+    left: 3.594vw;
     background-image: url("../img/category/icon_sliderbtn_lt.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -274,13 +275,13 @@
 
   .catmv-slider .slick-next {
     color: transparent;
-    width: 60px;
-    height: 60px;
+    width: 9.375vw;
+    height: 9.375vw;
     border: none;
     background-color: transparent;
     position: absolute;
     top: 48%;
-    right: 23px;
+    right: 3.594vw;
     background-image: url("../img/category/icon_sliderbtn_rt.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -291,7 +292,7 @@
   }
 
   .catmv-slider .slick-dots {
-    bottom: 8px;
+    bottom: 1.25vw;
   }
 }
 
