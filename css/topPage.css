@@ -196,7 +196,7 @@
   }
 }
 
-@media screen and (max-width:767.9px) {
+@media screen and (max-width: 767.9px) {
   .sec-1 {
     padding: 69.38vw 0;
     background: url(../img/top/top_main_img.png) no-repeat right/cover;
@@ -301,7 +301,6 @@
 
   .con-8.ingredient-con .item-con .item .img-con {
     margin-bottom: 1.56vw;
-
   }
 
   .con-8.ingredient-con .item-con .item .img-con img {

@@ -261,16 +261,16 @@
   margin: 0 100px;
 }
 
-/* .sec-information {
+.sec-information {
   margin: 0 auto;
-} */
+}
 
 .sec-information .d-flex-row {
-  justify-content: initial;
+  justify-content: center;
   /*changer initial to center and remove command above code */
   text-align: center;
   /* and add command to margin in this section  to move center*/
-  margin: 0 0 44px 382px;
+  /* margin: 0 0 44px 382px; */
 }
 
 .sec-information div.info {
@@ -445,7 +445,15 @@
   }
 
   .sec-information .d-flex-row {
-    margin: 0 0 13.411vw 8.594vw;
+    /* margin: 0 0 13.411vw 8.594vw; */
+  }
+
+  .subscribe .container .left {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 68px 0;
   }
 }
 
@@ -632,6 +640,14 @@
   .sec-information div.info {
     margin: 0 auto;
     padding-bottom: 7.656vw;
+  }
+
+  .subscribe .container .left {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 51px 0;
   }
 }
 

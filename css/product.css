@@ -32,7 +32,6 @@
 
 .slick-and-accordion-inner-blk .product-slick {
   width: 569px;
-
 }
 
 .slick-and-accordion-inner-blk .product-accordion {
@@ -41,10 +40,9 @@
 
 .product-accordion .span-red {
   margin-top: 250px;
-  color: #FF0000;
+  color: #ff0000;
   font-family: "Gill Sans MT";
 }
-
 
 .product-accordion h1 {
   margin-top: 28px;
@@ -53,13 +51,11 @@
   font-weight: 700;
 }
 
-
 .product-accordion .rating {
   margin-top: 33px;
 }
 
 .product-accordion .pricing {
-
   margin-top: 20px;
   margin-left: 4px;
 }
@@ -68,14 +64,12 @@
   margin-left: 33px;
   font-family: "Gill Sans MT";
   text-decoration: underline;
-
 }
 
 .product-accordion .span-black-line {
   margin-right: 20px;
   font-family: "Gill Sans MT";
   text-decoration: line-through;
-
 }
 
 .product-accordion h2 {
@@ -91,9 +85,7 @@
   width: 552px;
   margin-top: 33px;
   margin-left: -5px;
-
 }
-
 
 .product-accordion .quantity-blk {
   font-family: "Gill Sans MT";
@@ -125,7 +117,6 @@
   margin-left: -6px;
 }
 
-
 .product-accordion .detail {
   font-family: "Gill Sans MT";
   font-size: 15px;
@@ -144,7 +135,7 @@
   padding-top: 8px;
   padding-bottom: 10px;
   padding-left: 15px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   color: #000;
   font-family: "Montserrat";
   font-weight: 700;
@@ -171,10 +162,10 @@
   padding-top: 8px;
   padding-bottom: 10px;
   padding-left: 17px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
   font-family: "Gill Sans MT";
-  border-bottom: 2px solid #D9D9D9;
+  border-bottom: 2px solid #d9d9d9;
 }
 
 .accordion-container {
@@ -322,7 +313,7 @@
 }
 
 .tab-blk .tab-nav a:hover {
-  color: #D9D9D9;
+  color: #d9d9d9;
   transition: 0.8s;
   -webkit-transition: 0.8s;
   opacity: 0.7;
@@ -342,8 +333,7 @@
 
 /* ______________________________________ */
 
-@media screen and (min-width:768px) and (max-width:1200px) {
-
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .inner {
     width: 100%;
     margin: 0 auto;
@@ -380,10 +370,9 @@
 
   .product-accordion .span-red {
     margin-top: 31.25vw;
-    color: #FF0000;
+    color: #ff0000;
     font-family: "Gill Sans MT";
   }
-
 
   .product-accordion h1 {
     margin-top: 3.255vw;
@@ -391,7 +380,6 @@
     font-size: 6.51vw;
     font-weight: 700;
   }
-
 
   .product-accordion .rating {
     margin-top: 4.297vw;
@@ -480,7 +468,6 @@
     padding-top: 1.302vw;
     padding-bottom: 1.302vw;
     padding-left: 2.214vw;
-
   }
 
   .accordion-container {
@@ -507,7 +494,6 @@
 
   /* _______________________________ */
 
-
   /* Explore */
 
   .explore-blk {
@@ -521,7 +507,6 @@
     margin-top: -1.042vw;
     margin-bottom: 20.703vw;
   }
-
 
   .explore-blk .explore-inner {
     width: 86.979vw;
@@ -589,14 +574,11 @@
   }
 
   /* ______________________________________ */
-
 }
 
 /* Mobile */
 
-@media screen and (max-width:767.9px) {
-
-
+@media screen and (max-width: 767.9px) {
   .inner {
     width: 100%;
     margin: 0 auto;
@@ -628,7 +610,7 @@
 
   .product-accordion .span-red {
     margin-top: 39.06vw;
-    color: #FF0000;
+    color: #ff0000;
     font-family: "Gill Sans MT";
   }
 
@@ -648,7 +630,6 @@
     margin-right: 6.72vw;
     font-family: "Gill Sans MT";
     text-decoration: line-through;
-
   }
 
   .product-accordion h2 {
@@ -664,8 +645,6 @@
     margin-top: -3.28vw;
     margin-left: 0vw;
   }
-
-
 
   .product-accordion .quantity-blk h2 {
     margin-top: 2.03vw;
@@ -693,7 +672,6 @@
   .product-accordion .quantity-blk .three-blks {
     margin-left: -0.94vw;
   }
-
 
   .product-accordion .detail {
     font-family: "Gill Sans MT";
@@ -727,7 +705,6 @@
     content: "+";
   }
 
-
   .accordion-content {
     width: 85vw;
   }
@@ -742,7 +719,6 @@
   /* related blk */
 
   .related-product-blk h1 {
-
     margin-top: 16.09vw;
     margin-left: 32.6%;
   }
@@ -794,7 +770,6 @@
     margin-left: 7.81vw;
   }
 
-
   .explore-blk .import-img {
     padding-left: 5.16vw;
   }
@@ -819,7 +794,6 @@
 
   .explore-blk .recycle-txt {
     margin-left: 7.34vw;
-
   }
 
   .explore-blk .protection {
@@ -829,7 +803,6 @@
 
   .explore-blk .protection-txt {
     margin-left: 7.66vw;
-
   }
 
   /* _______________________________________ */
@@ -865,6 +838,4 @@
   }
 
   /* ______________________________________ */
-
-
 }
