@@ -1,4 +1,8 @@
 /*Start Category Page */
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
 
 .tb-sp {
   display: none;
@@ -353,6 +357,7 @@
 
   .sec-acne .product-col {
     padding: 0.521vw 0 0 0;
+    flex: 0 0 100%;
     margin: 0 auto;
   }
 
@@ -380,9 +385,10 @@
     padding-bottom: 5.208vw;
   }
 
-  .product-col .product-ro1,
+  .product-col .product-ro1-col1,
+  .product-col .product-ro1-col2,
   .sec-acne .product-ro2 .item1 {
-    margin: 0;
+    margin: 0 auto;
   }
 
   .product-ro1 .product-ro1-col1 {
@@ -395,7 +401,7 @@
   }
 
   .sec-acne .product-ro2 div.sp-pd {
-    margin-right: 2.604vw;
+    margin-left: 2.604vw;
   }
 
   .sec-treatment {
@@ -529,7 +535,12 @@
 
   .sec-acne .product-col {
     padding: 0.781vw 0 0 0;
+    flex: 0 0 100%;
     margin: 0 auto;
+  }
+
+  .sec-acne .product-ro2 .item1 {
+    flex: 0 0 48%;
   }
 
   .sec-acne .product-col .product-ro2 .pd-18+.pd-18 {
@@ -571,7 +582,7 @@
   }
 
   .sec-acne .product-ro2 div.sp-pd {
-    margin-right: 3.125vw;
+    margin-left: 3.125vw;
   }
 
   .sec-treatment {
